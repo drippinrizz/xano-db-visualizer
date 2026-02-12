@@ -1,0 +1,27 @@
+{
+    "name": "xano-db-visualizer",
+    "version": "1.0.0",
+    "description": "Node-based interactive graph visualizer for Xano databases. Auto-deploys a self-hosted visualizer endpoint to any Xano workspace.",
+    "main": "setup.mjs",
+    "type": "module",
+    "scripts": {
+        "start": "node setup.mjs"
+    },
+    "keywords": [
+        "xano",
+        "database",
+        "visualizer",
+        "graph",
+        "interactive",
+        "node-graph",
+        "data-viewer",
+        "canvas",
+        "relationships",
+        "foreign-keys"
+    ],
+    "author": "camcodes",
+    "license": "MIT",
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}

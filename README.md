@@ -92,7 +92,8 @@ The visualizer HTML page is embedded inside the Xano endpoint itself — served 
 ## FAQ
 
 **Does this read my data?**
-Yes — the `graph-data` endpoint queries up to 250 records per table. It's a public GET endpoint. If your data is sensitive, you can add authentication to the API group in Xano after deployment.
+Yes — the `graph-data` endpoint queries up to 250 records per table. You can modify this value within the 'GET graph-data' endpoint. 
+It's a public GET endpoint. If your data is sensitive, you can add authentication to the API group in Xano after deployment.
 
 **Can I run this on multiple workspaces?**
 Yes — run the CLI again with a different workspace. Each gets its own "Visualizer" API group.
